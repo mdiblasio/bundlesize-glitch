@@ -5,12 +5,12 @@
 // COMMENT OUT THE BELOW OPTIONS
 
 // OPTION 1: FAIL BUNDLESIZE
-// import firebase from "firebase";
-// import * as moment from 'moment';
+import firebase from "firebase";
+import * as moment from 'moment';
 
 // OPTION 2: PASS BUNDLESIZE
-import firebase from 'firebase/app';
-import 'firebase/database';
+// import firebase from 'firebase/app';
+// import 'firebase/database';
 
 var config = {
   apiKey: "AIzaSyAfkVIzXPqpVHpxfqlduGtaWsWJAtRYQlc",
