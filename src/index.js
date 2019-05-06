@@ -1,7 +1,16 @@
 // Copyright 2018 Google LLC.
 // SPDX-License-Identifier: Apache-2.0
-import firebase from "firebase";
-import * as moment from 'moment';
+
+// ***INSTRUCTIONS*** 
+// COMMENT OUT THE BELOW OPTIONS
+
+// OPTION 1: FAIL BUNDLESIZE
+// import firebase from "firebase";
+// import * as moment from 'moment';
+
+// OPTION 2: PASS BUNDLESIZE
+import firebase from 'firebase/app';
+import 'firebase/database';
 
 var config = {
   apiKey: "AIzaSyAfkVIzXPqpVHpxfqlduGtaWsWJAtRYQlc",
