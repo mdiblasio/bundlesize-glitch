@@ -28,7 +28,7 @@
   },
   "bundlesize": [{
     "path": "./public/*.bundle.js",
-    "maxSize": "300 kB"
+    "maxSize": "170 kB"
   }],
   "engines": {
     "node": "8.11.x"
